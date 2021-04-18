@@ -15,7 +15,6 @@ except:
 #preparing download directory
 video_functions.prepare_df()
 
-#title = str(yt.title)
 title = video_functions.title_check(str(yt.title))
 
 
